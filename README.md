@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kaapse Taal Dictionary 🌍🔠
 
-## Getting Started
+*A kwaai guide to Cape Town's most lekker slang!*  
+[![Next.js](https://img.shields.io/badge/Next.js-13.4+-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3+-06B6D4?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What's this jol about? 🤔
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Explore the vibrant language of Cape Town through this interactive dictionary and Wordle-style game. From "lekker" to "voetsek", discover how locals mix Afrikaans, English, Xhosa, and Cape Malay influences in daily taal.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Live Demo:** https://what-the-kaaps.vercel.app/
 
-## Learn More
+## Features that make it moerse nice 🚀
 
-To learn more about Next.js, take a look at the following resources:
+### 📚 Dictionary Section
+- 50+ authentic slang terms with explanations
+- Search functionality ("Soek jy vir iets?")
+- Pronunciation guides
+- Example usage in context
+- Category filters (Food, Social, Political)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎮 Interactive Elements
+- **Quiz**: "Guess the Term" game
+- **Kaaps Wordle**: Daily 5-letter slang challenge
+- Audio pronunciation support (coming soon)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🎨 Cultural Touches
+- Localized UI with Cape Town colors
+- Contextual history notes
+- Warning markers for sensitive terms
+- Multi-language support (Afrikaans/English)
 
-## Deploy on Vercel
+### 💻 Tech Specs
+- Next.js 13 App Router
+- Tailwind CSS with custom theme
+- Responsive mobile-first design
+- Localized date/time formatting
+- Interactive animations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How to get it running 🛠️
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/LyleOlivertings/What-the-kaaps
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Visit in browser**
+   ```
+   http://localhost:3000
+   ```
+
+## Want to contribute? 👷
+
+We'll make a plan! Here's how you can help:
+
+1. **Add new slang terms**  
+   Edit `data/slangData.js` following the existing format
+
+2. **Improve explanations**  
+   Submit PRs with better examples or cultural context
+
+3. **Suggest features**  
+   Open an issue for new ideas (bonus points for Kaaps descriptions!)
+
+4. **Fix bugs**  
+   Found a moffie in the code? Let us know!
+
+Check our [contribution guidelines](CONTRIBUTING.md) for more details.
+
+## License 📜
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.  
+*"Share the taal, but give credit where it's due!"*
+
+## Shout-outs 👏
+
+- Cape Flats communities for keeping the taal alive
+- [TAXI](https://www.taxi.ac.za/) for linguistic inspiration
+- Local shebeen owners who tested early versions
+- Every ou who ever said "Aikona!"
+
+## Final Word 🌟
+
+*"Hierdie projek is nie net 'n app nie - dis 'n viering van Kaapse kultuur. Geniet dit, deel dit, en moenie vergeet om te kuier!"*
+
+[![Cape Town Flag](https://img.shields.io/badge/Made_with_❤️_in-Cape_Town-ED1C24?style=flat)](https://www.capetown.gov.za/)
